@@ -1,0 +1,13 @@
+.home {
+  text-align: center;
+}
+.title-home {
+  font-size: 150px;
+  /* font-size: clamp(50px, 2vw, 150px); */
+}
+.avatar {
+  width: 250px;
+}
+.home p {
+  font-size: 75px;
+}
