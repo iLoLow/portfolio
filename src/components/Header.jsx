@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
+
 import logo from "../assets/logo.png";
 import "../Styles/Header.css";
+import MenuBurger from "./MenuBurger";
 
 function Header() {
   return (
@@ -8,7 +10,8 @@ function Header() {
       <Link to="/" aria-label="Accueil">
         <img src={logo} className="logo-dev" alt="logo" />
       </Link>
-      <nav>
+
+      <nav className="navDesktop">
         <NavLink className={({ isActive }) => (isActive ? "link link-active" : "link")} end to="/">
           Accueil
         </NavLink>
@@ -22,6 +25,8 @@ function Header() {
           Me contacter
         </NavLink>
       </nav>
+
+      <MenuBurger />
     </header>
   );
 }
