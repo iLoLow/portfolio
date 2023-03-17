@@ -1,12 +1,24 @@
 .card-Project {
   width: 300px;
-  background-color: white;
+  background-color: #72d2e1;
   border-radius: 20px;
   overflow: hidden;
-  border: 3px solid white;
+  border: 2px solid #1d3160;
+  cursor: pointer;
+  transition: 0.5s;
+  flex-wrap: wrap;
+}
+.card-Project:hover {
+  color: #72d2e1;
+  background-color: #1d3160;
+  border: 2px solid #72d2e1;
+}
+.card-Project h2,
+.card-Project p {
+  text-align: center;
+  padding-block: 5px;
 }
 .card-Project img {
-  border-radius: 0 0 20px 20px;
   width: 300px;
   height: 400px;
   display: block;

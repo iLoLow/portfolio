@@ -22,7 +22,7 @@ function Projects() {
     <>
       <div className="Projects">
         <h1 className="title-projects">
-          <span>Mes Projects</span>
+          <span>Mes créations :</span>
         </h1>
 
         <section className="cards-projects">{AllProjects.length > 0 && AllProjects.map((item) => <CardProjects data={item} key={item.id} />)}</section>

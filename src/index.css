@@ -1,7 +1,6 @@
 body {
-  color: white;
-  background: rgb(22, 0, 46);
-  background: linear-gradient(180deg, rgba(22, 0, 46, 1) 0%, rgba(3, 4, 138, 1) 49%, rgba(2, 3, 80, 1) 100%);
+  color: #1d3160;
+  background: #ececec;
 }
 
 code {

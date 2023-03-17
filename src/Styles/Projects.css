@@ -1,9 +1,16 @@
 .Projects {
   font-size: 15px;
+  margin-inline: 125px;
+}
+
+.title-projects {
+  text-align: center;
+  margin-block: 25px;
+  font-size: 50px;
 }
 
 .cards-projects {
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
 }

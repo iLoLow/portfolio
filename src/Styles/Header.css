@@ -10,7 +10,7 @@
 .header nav {
   display: flex;
   gap: 50px;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 26px;
   padding: 30px;
 }
@@ -22,4 +22,5 @@
 .link:hover,
 .link-active {
   text-decoration: underline;
+  color: #72d2e1;
 }
