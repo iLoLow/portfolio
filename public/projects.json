@@ -23,7 +23,7 @@
 		"id": "4",
 		"title": "Kasa",
 		"cover": "/images/p7.PNG",
-		"description": "Site web de reservation de chambre d'hôte",
+		"description": "Site web de location d'appartement",
 		"link" : "https://p7-kasa-ebon.vercel.app"
 	}
 	

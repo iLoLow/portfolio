@@ -4,21 +4,33 @@
   justify-content: center;
   align-items: center;
 }
+.number,
+.me-contacter {
+  font-size: 30px;
+  font-weight: bold;
+}
 .section-mobile a {
   display: flex;
   text-decoration: none;
+  color: #1d3160;
+}
+.section-mobile a:hover {
+  color: #72d2e1;
+  text-decoration: underline;
 }
 .section-mobile h1 {
+  font-size: 35px;
   margin-block: 20px;
 }
 .mobile {
   display: flex;
 }
+.number,
+.me-contacter {
+  font-size: 30px;
+  font-weight: bold;
+}
 .section-mobile svg {
   width: 30px;
   margin-inline: 15px;
-}
-.number {
-  font-size: 20px;
-  font-weight: bold;
 }

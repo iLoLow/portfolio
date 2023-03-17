@@ -1,5 +1,5 @@
 import "../Styles/Home.css";
-import avatar from "../assets/avatar.PNG";
+// import avatar from "../assets/avatar.PNG";
 
 function Home() {
   document.title = "SOYEZ Laurent Développeur WEB";
@@ -10,7 +10,7 @@ function Home() {
         <div className="header-home">
           {/* <img className="avatar" src="" alt="illustration de profil" /> */}
           <h1 className="title-home">SOYEZ Laurent</h1>
-          <p>Développeur Web freelance</p>
+          <p className="freelance">Développeur Web freelance</p>
           <p>HTML/CSS | Javascript | React</p>
         </div>
       </div>
