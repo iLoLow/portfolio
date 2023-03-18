@@ -61,6 +61,10 @@
   .header .navDesktop {
     display: none;
   }
+  .NavMobile {
+    font-size: 25px;
+    padding-block: 20px;
+  }
   .MenuBurger {
     display: flex;
   }

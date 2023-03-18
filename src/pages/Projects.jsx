@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CardProjects from "../components/CardProjects";
+import Gallery from "../components/Gallery";
 import "../Styles/Projects.css";
 
 function Projects() {
@@ -25,7 +25,9 @@ function Projects() {
           <span>Mes créations :</span>
         </h1>
 
-        <section className="cards-projects">{AllProjects.length > 0 && AllProjects.map((item) => <CardProjects data={item} key={item.id} />)}</section>
+        <section className="cards-projects">
+          <Gallery projects={AllProjects} />
+        </section>
       </div>
     </>
   );

@@ -1,21 +1,31 @@
 .home {
   text-align: center;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .title-home {
-  font-size: clamp(50px, 5vw, 150px);
+  font-size: clamp(40px, 4vw, 60px);
 }
 .freelance {
   font-style: italic;
 }
 
 .home p {
-  font-size: clamp(25px, 3vw, 55px);
+  font-size: clamp(20px, 2vw, 40px);
 }
 .home .title,
 .home p {
   text-align: center;
   padding: 30px 0;
+}
+
+.cover {
+  max-width: 1000px;
+  height: 600px;
+}
+.cover img {
+  height: 100%;
 }

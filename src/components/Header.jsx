@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-
 import logo from "../assets/logo.png";
 import "../Styles/Header.css";
 import MenuBurger from "./MenuBurger";
@@ -7,8 +6,10 @@ import MenuBurger from "./MenuBurger";
 function Header() {
   return (
     <header className="header">
-      <Link to="/" aria-label="Accueil">
-        <img src={logo} className="logo-dev" alt="logo" />
+      <Link className="LogoLink" to="/" aria-label="Accueil">
+        <div>
+          <img src={logo} className="logo-dev" alt="logo" />
+        </div>
       </Link>
 
       <nav className="navDesktop">

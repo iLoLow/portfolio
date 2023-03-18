@@ -6,9 +6,11 @@ function Home() {
 
   return (
     <>
+      <div className="cover">
+        <img src="/images/polina-kuzovkova-yNPM6RN1RBw-unsplash.jpg" alt="" />
+      </div>
       <div className="home">
         <div className="header-home">
-          {/* <img className="avatar" src="" alt="illustration de profil" /> */}
           <h1 className="title-home">SOYEZ Laurent</h1>
           <p className="freelance">Développeur Web freelance</p>
           <p>HTML/CSS | Javascript | React</p>

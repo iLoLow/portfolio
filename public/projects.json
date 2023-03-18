@@ -3,28 +3,40 @@
 		"id": "1",
 		"title": "Booki",
 		"cover": "/images/booki.png",
-		"description": "Site web de reservation de chambre d'hôte",
-		"link" : "https://ilolow.github.io/P2/"
+		"description": "Réservation de chambre d'hôte",
+		"link" : "https://ilolow.github.io/P2/",
+		"code" : [
+			"/images/HTML5_logo_and_wordmark.svg",
+			"/images/CSS3_logo_and_wordmark.svg"
+		]
+		
+
 	},
 	{
 		"id": "2",
 		"title": "ohmyfood",
 		"cover": "/images/ohmyfood.png",
-		"description": "Site web de restauration",
-		"link" : "https://ilolow.github.io/P3/"
+		"description": "Menu de restaurants",
+		"link" : "https://ilolow.github.io/P3/",
+		"code" : [
+			"/images/HTML5_logo_and_wordmark.svg",
+			"/images/CSS3_logo_and_wordmark.svg"
+		]
 	},
 	{
 		"id": "3",
 		"title": "Kanap",
 		"cover": "/images/p5.PNG",
-		"description": "Site web e-shop de vente de canapé",
-		"link" : "https://kanap-7jo3.onrender.com"
+		"description": "E-shop de vente de canapé",
+		"link" : "https://kanap-7jo3.onrender.com",
+		"code" : ["/images/logo-javascript.svg"]
 	},{
 		"id": "4",
 		"title": "Kasa",
 		"cover": "/images/p7.PNG",
-		"description": "Site web de location d'appartement",
-		"link" : "https://p7-kasa-ebon.vercel.app"
+		"description": "Location d'appartement",
+		"link" : "https://p7-kasa-ebon.vercel.app",
+		"code" : ["/images/logo-react.svg"]
 	}
 	
 ]
