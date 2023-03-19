@@ -1,10 +1,16 @@
 .Projects {
   font-size: 15px;
-  /* margin-inline: 125px; */
+  margin-left: 60px;
+  margin-bottom: 15px;
 }
 
 .title-projects {
   text-align: center;
-  margin-block: 25px;
-  font-size: 50px;
+  margin-block: 10px;
+  font-size: 24px;
+}
+@media screen and (max-width: 650px){
+  .Projects{
+    margin-left: 0;
+  }
 }

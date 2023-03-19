@@ -9,11 +9,24 @@
 .IconBar a {
   width: 40px;
   background-color: #72d2e1;
-  margin: 25px;
+  margin: 10px;
   border-radius: 5px;
   padding: 5px;
   transition: 0.5s;
 }
 .IconBar a:hover {
   background: #1d3160;
+}
+@media screen and (max-width: 650px) {
+  .IconBar{
+    display: flex;
+    flex-direction: initial;
+    bottom: 8px;
+    margin-left: 10px;
+  }
+  .IconBar a {
+    padding: 3px;
+    margin: 5px;
+    width: 20px;
+  }
 }

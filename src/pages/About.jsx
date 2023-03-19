@@ -6,6 +6,9 @@ function About() {
     <section className="apropos">
       <h1>SOYEZ Laurent</h1>
       <p>Entrepreneur individuel, Freelance </p>
+      <p>Certifications Professionnelles au
+niveau 5,Développeur intégrateur web
+</p>
       <p>Création de site internet : HTML/CSS, Javascript et React</p>
       <p>Siren : 949 492 144</p>
       <p>Siret : 949 492 144 00017</p>

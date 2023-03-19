@@ -3,7 +3,8 @@ import "../Styles/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2023 SOYEZ Laurent. Tous droits réservés</p>
+      <p>© 2023 SOYEZ Laurent,</p>
+      <p>Tous droits réservés</p>
     </footer>
   );
 }

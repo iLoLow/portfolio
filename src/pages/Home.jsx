@@ -6,9 +6,7 @@ function Home() {
 
   return (
     <>
-      <div className="cover">
-        <img src="/images/polina-kuzovkova-yNPM6RN1RBw-unsplash.jpg" alt="" />
-      </div>
+     
       <div className="home">
         <div className="header-home">
           <h1 className="title-home">SOYEZ Laurent</h1>
