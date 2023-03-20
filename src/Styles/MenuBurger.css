@@ -10,6 +10,14 @@
   top: 0;
   z-index: 2;
 }
+.NavmobileFlex{
+  display: flex;
+}
+.NavMobileSvgHome{
+  width: 17px;
+  color: #72d2e1;
+  margin-right: 5px;
+}
 .MenuBurger {
   display: none;
   width: 50px;
