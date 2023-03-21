@@ -1,13 +1,8 @@
-
-
 import Slider from "../components/Slider";
 import "../Styles/Projects.css";
 
 function Projects() {
   document.title = "Mes créations";
-
- 
- 
 
   return (
     <>
@@ -17,7 +12,7 @@ function Projects() {
         </h1>
 
         <section className="cards-projects">
-          <Slider/>
+          <Slider />
         </section>
       </div>
     </>

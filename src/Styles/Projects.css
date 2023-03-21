@@ -8,9 +8,18 @@
   text-align: center;
   margin-block: 10px;
   font-size: 24px;
+  animation: ApparitionTitle 1.5s both;
 }
-@media screen and (max-width: 650px){
-  .Projects{
+@keyframes ApparitionTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Projects {
     margin-left: 0;
   }
 }
