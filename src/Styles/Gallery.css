@@ -8,12 +8,13 @@
   height: 100%;
   padding: 10px;
   opacity: 0;
-  transition: opacity 350ms;
+  background: white;
 }
 
 .gallery.active {
   display: grid;
   animation: fade 0.5s both;
+  opacity: 1;
 }
 
 @keyframes fade {
@@ -86,6 +87,7 @@
 .galleryCover img {
   object-fit: cover;
   object-position: top;
+  border-radius: 20px;
 }
 
 .tag {

@@ -6,7 +6,6 @@ function Home() {
 
   return (
     <>
-     
       <div className="home">
         <div className="header-home">
           <h1 className="title-home">SOYEZ Laurent</h1>

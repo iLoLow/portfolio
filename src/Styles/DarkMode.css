@@ -1,0 +1,54 @@
+#darkModeToggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 34px;
+  opacity: 0;
+}
+
+.toggle-label {
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.toggle-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.2s;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+}
+
+#darkModeToggle:checked + .toggle-label .toggle-background {
+  background-color: #000;
+}
+
+#darkModeToggle:checked + .toggle-label .toggle-thumb {
+  transform: translateX(26px);
+}
+
+#darkModeToggle:checked ~ .main,
+#darkModeToggle:checked ~ .testheader,
+#darkModeToggle:checked ~ .footer {
+  background-color: #333;
+  color: #fff;
+}

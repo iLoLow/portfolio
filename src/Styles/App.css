@@ -3,8 +3,11 @@ body {
   width: 100%;
   height: 100%;
 }
+.App {
+  display: contents;
+}
 
-.main {
+.App .main {
   margin-left: auto;
   margin-right: auto;
   flex: 1 1;
@@ -15,7 +18,8 @@ body {
   align-items: center;
 }
 
-img, svg {
+img,
+svg {
   width: 100%;
   height: 100%;
   display: block;
@@ -24,4 +28,78 @@ img, svg {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+.darkMode {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+}
+@media screen and (max-width: 650px) {
+  .darkMode {
+    top: 50px;
+  }
+}
+.dark .body,
+.dark .header,
+.dark .NavMobile,
+.dark .main,
+.dark .footer,
+.dark .slider,
+.dark .gallery,
+.dark .galleryInfo,
+.dark .galleryLink,
+.dark .SectionMecontacter a {
+  background-color: #1b1b1b;
+  color: #ececec;
+}
+.dark .galleryLink:hover {
+  background: #72d2e1;
+}
+
+#darkModeToggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 34px;
+  opacity: 0;
+}
+
+.toggle-label {
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.toggle-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: background-color 0.2s;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+}
+
+#darkModeToggle:checked + .toggle-label .toggle-background {
+  background-color: #000;
+}
+
+#darkModeToggle:checked + .toggle-label .toggle-thumb {
+  transform: translateX(26px);
 }
