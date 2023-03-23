@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"cover": "/images/booki.png",
+		"cover": "/images/booki.webp",
 		"description": "Bienvenue sur Booki - le site de location de chambres d'hôtes classieuse que j'ai créé en utilisant HTML et CSS. Trouvez votre hébergement idéal en France en quelques clics seulement a l'aide de filtres !",
 		"link" : "https://ilolow.github.io/P2/",
 		"code" : [
@@ -15,7 +15,7 @@
 	{
 		"id": "2",
 		"title": "ohmyfood",
-		"cover": "/images/ohmyfood.png",
+		"cover": "/images/ohmyfood.webp",
 		"description": "Bienvenue sur Ohmyfood! - la startup de restauration innovante dont j'ai créé le site en HTML et CSS avec des animations modernes. Découvrez des menus gastronomiques sur notre plateforme 100% mobile.",
 		"link" : "https://ilolow.github.io/P3/",
 		"code" : [
@@ -26,7 +26,7 @@
 	{
 		"id": "3",
 		"title": "Kanap",
-		"cover": "/images/kanap.png",
+		"cover": "/images/kanap.webp",
 		"description": "Découvrez Kanap - Une boutique en ligne pour acheter des canapés exclusifs de qualité. Avec des éléments de l'API que j'ai intégrés dynamiquement à l'aide de JavaScript, l'expérience utilisateur est fluide et intuitive.",
 		"link" : "https://kanap-7jo3.onrender.com",
 		"code" : [
@@ -35,7 +35,7 @@
 	},{
 		"id": "4",
 		"title": "Kasa",
-		"cover": "/images/kasa.png",
+		"cover": "/images/kasa.webp",
 		"description": "Découvrez Kasa - Un site web développé avec React, leader de la location d'appartements entre particuliers en France depuis près de 10 ans. Trouvez votre prochain chez-vous en un rien de temps.",
 		"link" : "https://p7-kasa-ebon.vercel.app",
 		"code" : [

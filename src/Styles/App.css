@@ -49,8 +49,13 @@ svg {
 .dark .galleryInfo,
 .dark .galleryLink,
 .dark .SectionMecontacter a {
-  background-color: #1b1b1b;
+  background-color: #080808;
   color: #ececec;
+}
+.dark .Burger,
+.dark .Burger::before,
+.dark .Burger::after {
+  background: #ececec;
 }
 .dark .galleryLink:hover {
   background: #72d2e1;
@@ -97,9 +102,18 @@ svg {
 }
 
 #darkModeToggle:checked + .toggle-label .toggle-background {
-  background-color: #000;
+  background-color: #000000;
 }
 
 #darkModeToggle:checked + .toggle-label .toggle-thumb {
   transform: translateX(26px);
+}
+.moon {
+  display: none;
+}
+.dark .sunny {
+  display: none;
+}
+.dark .moon {
+  display: initial;
 }
