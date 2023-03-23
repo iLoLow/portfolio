@@ -3,7 +3,7 @@
 		"id": "1",
 		"title": "Booki",
 		"cover": "/images/booki.png",
-		"description": "Bienvenue sur Booki - le site de location de chambres d'hôtes que j'ai créé en utilisant HTML et CSS. Trouvez votre hébergement idéal en France en quelques clics seulement !",
+		"description": "Bienvenue sur Booki - le site de location de chambres d'hôtes classieuse que j'ai créé en utilisant HTML et CSS. Trouvez votre hébergement idéal en France en quelques clics seulement a l'aide de filtres !",
 		"link" : "https://ilolow.github.io/P2/",
 		"code" : [
 			"/images/html.png",

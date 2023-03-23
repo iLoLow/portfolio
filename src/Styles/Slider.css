@@ -75,6 +75,7 @@
   display: grid;
   animation: fade 0.5s both;
   opacity: 1;
+  border-radius: 10px;
 }
 
 @keyframes fade {
@@ -148,6 +149,9 @@
   object-fit: cover;
   object-position: top;
 }
+.dark .galleryCover img {
+  border-radius: 10px;
+}
 
 .tag {
   box-shadow: inset 0 0 4px 2px rgba(114, 210, 225, 0.5);
@@ -161,7 +165,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .galleryCover img {
+  .dark .galleryCover img {
     border-radius: 10px;
   }
   .gallery.active {

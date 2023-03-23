@@ -10,10 +10,10 @@
   top: 0;
   z-index: 2;
 }
-.NavmobileFlex{
+.NavmobileFlex {
   display: flex;
 }
-.NavMobileSvgHome{
+.NavMobileSvgHome {
   width: 17px;
   color: #72d2e1;
   margin-right: 5px;
@@ -74,7 +74,6 @@
     font-size: 16px;
     padding-block: 60px;
     justify-content: center;
-    
   }
   .MenuBurger {
     display: flex;
