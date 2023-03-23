@@ -87,6 +87,7 @@ svg {
   background-color: #ccc;
   border-radius: 34px;
   transition: background-color 0.2s;
+  border: 1px solid #72d2e1;
 }
 
 .toggle-thumb {
