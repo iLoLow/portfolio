@@ -30,11 +30,11 @@ svg {
   flex-direction: column;
 }
 .darkMode {
-  position: fixed;
+  position: absolute;
   top: 80px;
   right: 20px;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .darkMode {
     top: 50px;
   }
