@@ -11,6 +11,15 @@
 .logo-dev {
   margin-left: 5px;
 }
+.logoWhite {
+  display: none;
+}
+.dark .logoBlack {
+  display: none;
+}
+.dark .logoWhite {
+  display: initial;
+}
 .header .navDesktop {
   display: flex;
   gap: 20px;
