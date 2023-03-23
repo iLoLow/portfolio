@@ -13,3 +13,18 @@ body {
   color: #1d3160;
   background: #ececec;
 }
+.main,
+.home,
+.apropos,
+.SectionMecontacter {
+  animation: apparitionMain 0.5s forwards;
+}
+
+@keyframes apparitionMain {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

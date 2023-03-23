@@ -10,8 +10,12 @@
   top: 0;
   z-index: 2;
 }
+.NavMobile .link {
+  width: 50%;
+}
 .NavmobileFlex {
   display: flex;
+  justify-content: space-between;
 }
 .NavMobileSvgHome {
   width: 17px;
