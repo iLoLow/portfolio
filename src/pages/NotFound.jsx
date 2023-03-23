@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom";
+import "../Styles/Notfound.css";
 
 function NotFound() {
   document.title = "Not Found";
   return (
-    <div>
-      <h1>Une erreur c'est produite</h1>
+    <section className="notFound">
+      <h1>Oh oh ! Cette page semble s'être perdue dans l'espace.</h1>
+      <p>Nous travaillons dur pour la retrouver, en attendant, pourquoi ne pas explorer nos autres pages pour trouver ce que vous cherchez ?"</p>
       <Link to="/" aria-label="Accueil">
         <p>Retourner à l'acceuil</p>
       </Link>
-    </div>
+    </section>
   );
 }
 export default NotFound;
