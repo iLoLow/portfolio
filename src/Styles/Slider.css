@@ -31,7 +31,6 @@
   aspect-ratio: 1;
   padding: 8px;
   cursor: pointer;
-  user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;

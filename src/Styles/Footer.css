@@ -1,19 +1,19 @@
-.footer{
+.footer {
   padding: 10px;
   display: flex;
   justify-content: flex-end;
 }
 .footer p {
   font-size: 14px;
-
-  
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
   .footer {
     font-size: 10px;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
-    
+    align-items: flex-end;
+  }
+  .footer p {
+    font-size: 10px;
   }
 }
