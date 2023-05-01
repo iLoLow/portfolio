@@ -1,6 +1,17 @@
 [
 	{
 		"id": "1",
+		"title": "Pandora Rp",
+		"cover": "/images/pandorarp.webp",
+		"description": "Plongez dans une expérience de jeu immersive et conviviale avec Pandora RP, le serveur RP GTA 5 qui allie sérieux, dynamisme et inventivité. Créé avec React, le site web est à l'image du serveur : moderne et intuitif.",
+		"link" : "https://pandorarp.fr",
+		"code" : [
+			"/images/react.png"
+	
+		]
+	},
+	{
+		"id": "2",
 		"title": "Booki",
 		"cover": "/images/booki.webp",
 		"description": "Bienvenue sur Booki - le site de location de chambres d'hôtes classieuse que j'ai créé en utilisant HTML et CSS. Trouvez votre hébergement idéal en France en quelques clics seulement a l'aide de filtres !",
@@ -10,10 +21,9 @@
 			"/images/css.png"
 		]
 
-
 	},
 	{
-		"id": "2",
+		"id": "3",
 		"title": "ohmyfood",
 		"cover": "/images/ohmyfood.webp",
 		"description": "Bienvenue sur Ohmyfood! - la startup de restauration innovante dont j'ai créé le site en HTML et CSS avec des animations modernes. Découvrez des menus gastronomiques sur notre plateforme 100% mobile.",
@@ -24,7 +34,7 @@
 		]
 	},
 	{
-		"id": "3",
+		"id": "4",
 		"title": "Kanap",
 		"cover": "/images/kanap.webp",
 		"description": "Découvrez Kanap - Une boutique en ligne pour acheter des canapés exclusifs de qualité. Avec des éléments de l'API que j'ai intégrés dynamiquement à l'aide de JavaScript, l'expérience utilisateur est fluide et intuitive.",
@@ -33,7 +43,7 @@
 			"/images/js.png"
 		]
 	},{
-		"id": "4",
+		"id": "5",
 		"title": "Kasa",
 		"cover": "/images/kasa.webp",
 		"description": "Découvrez Kasa - Un site web développé avec React, leader de la location d'appartements entre particuliers en France depuis près de 10 ans. Trouvez votre prochain chez-vous en un rien de temps.",
